@@ -15,7 +15,7 @@ describe("Helper test", () => {
 
     it("get option 'Peso normal'", () => {
         const result = calculate(75, 1.75)
-        expect(result).equal("Peso normal")
+        expect(result).equal("Peso normal2") // tem um dois a mais aqui
     })
 
   });
